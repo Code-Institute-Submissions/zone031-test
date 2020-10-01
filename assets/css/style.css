@@ -3,6 +3,7 @@
 body {
     background-color: rgb(17, 16, 16);
     color: blanchedalmond;
+    font-family: 'Jura', serif;
 }
 
 /*---------------Header*/
@@ -24,9 +25,9 @@ body {
     text-decoration: none;
 }
 
-#header-image {
-    height: 20vh;
-    
+header h1 {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
 }
 
 
