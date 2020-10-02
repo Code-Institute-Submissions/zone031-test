@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Jura:wght@400;500&family=Monoton&family=Scheherazade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monoton"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <section>
-        <section> <h1>Zone031</h1>  </section>
+        <section>
+            <h1 id="header-logo">Zone031</h1>
+        </section>
             <div>
-                <ul id="nav" class="list-group-horizontal row main-navigation-list">
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>Home</span></a></li>
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>Media</span></a></li>
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>The Game</span></a></li>
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>Tournaments</span></a></li>
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>Teams</span></a></li>
-                    <li class="col-4 col-md-2 list-group-item"><a href="#"><span>About Us</span></a></li>
+                <ul id="nav" class="nav nav-tabs">
+                    <li class="col-4 col-md-2 nav-item"><a href="index.html" class="nav-link you-are-here">Home</a></li>
+                    <li class="col-4 col-md-2 nav-item"><a href="media.html" class="nav-link">Media</a></li>
+                    <li class="col-4 col-md-2 nav-item"><a href="#" class="nav-link">The Game</a></li>
+                    <li class="col-4 col-md-2 nav-item"><a href="#" class="nav-link">Tournaments</a></li>
+                    <li class="col-4 col-md-2 nav-item-dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-hashpopup="true" aria-expanded="false">Teams</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Feydakin</a>
+                            <a href="#" class="dropdown-item">Piraya</a>
+                        </div>
+                    </li>
+                    <li class="col-4 col-md-2 nav-item"><a href="#" class="nav-link">About us</a></li>
                 </ul>
             </div>
         </section>
@@ -35,17 +43,27 @@
         <div class="col-md-6">
             <iframe id="facebook-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZone031%2Fvideos%2F689173604960777%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
         </div>
-        <div class="col-md-6">
-            form
+        <div class="col-md-6 form-div">
+                <h3>Sign up for open training invitations every Thursday!</h3>
+                <div>
+                    <p>
+                    Every thursday we host beginner-friendly training sessions at Laserdome Hisingen. This is a great opportunity to come 
+                    and find out what competetive lasertag is about and get introduced to lasertag as a sport. As this is a mixed training group
+                    you will encounter all levels of opposition while at the same time getting tips from some of the best lasertag players in Europe.
+                    </p>
+                    <form>
+                        <div class="signup-form">
+                            <input type="name" placeholder="Forename Surname" aria-label="input for name">
+                            <input type="email" placeholder="name@email.xyz" aria-label="input for email">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
         </div>
         <div class="col-md-6">
-            <img src="images/arena-hole.png" alt="" id="arena-image">
+            <img src="assets/css/images/arena-hole.png" alt="" id="arena-image">
         </div>
     
     </div>
-
-
-
-    
 </body>
 </html>
