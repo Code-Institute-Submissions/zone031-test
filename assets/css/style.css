@@ -92,3 +92,16 @@ form input {
     margin: 0px;
     padding: 0px;
 }
+
+/*---------------Feydakin*/
+
+#feydakin-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/feydakin.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.card img {
+    width: 100%
+}
