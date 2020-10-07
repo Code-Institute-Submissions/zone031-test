@@ -102,18 +102,6 @@ form input {
     background-size: cover;
 }
 
-.card-img-top {
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.card {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: floralwhite;
-}
-
 #header-logo-feydakin {
     font-family: 'Audiowide', sans-serif;
     text-align: center;
@@ -126,3 +114,19 @@ form input {
 #feydakin-main {
     font-family: 'Audiowide', 'Franklin Gothic Medium', Arial, sans-serif;
 }
+
+/*---------------Cards*/
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: floralwhite;
+}
+
+/*---------------About us*/
