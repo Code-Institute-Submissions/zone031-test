@@ -2,11 +2,19 @@
 
 body {
     background-color: rgb(17, 16, 16);
-    color: blanchedalmond;
+    color: floralwhite;
     font-family: 'Jura', serif;
     background-image: url("images/tbd");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p {
+    text-align: justify;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 /*---------------Header*/
@@ -45,19 +53,30 @@ header {
 }
 
 
-/*---------------Body*/
+/*---------------Index page*/
+
+.index-container .col-md-6 {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    margin: 0px;
+}
 
 #arena-image {
+    width: 560px;
     max-width: 100%;
     max-height: 100%;
+    display: block;
+    margin: auto;
 }
 
 #facebook-video {
     max-width: 100%;
     max-height: 100%;
+    display: block;
+    margin: auto;
 }
-
-
 
 form input {
     display: block;
@@ -66,6 +85,19 @@ form input {
 .signup-form {
     position: relative;
     float: left;
+}
+
+.follow-icons a {
+    color: firebrick;
+    padding-right: 10px;
+}
+
+.fa {
+     padding-right: 5px;
+}
+
+.index-container p {
+    text-align: justify;
 }
 
 /*---------------Media page*/
@@ -85,12 +117,16 @@ form input {
     max-height: 100%;
 }
 
+h2, h3 {
+    text-align: center;
+}
+
 
 /*---------------The Game page*/
 
-#thegame {
-    margin: 0px;
-    padding: 0px;
+
+#thegame h2 {
+    text-decoration: underline solid;
 }
 
 /*---------------Feydakin*/
