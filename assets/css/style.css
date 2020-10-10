@@ -17,7 +17,23 @@ h2, h3 {
     text-align: center;
 }
 
+.hyperlink {
+    color: firebrick;
+}
+
+
+
 /*---------------Header*/
+
+.dropdown-item {
+    background-color: dimgray;
+    color: floralwhite;
+}
+
+.dropdown-menu {
+    background-color: dimgray;
+    
+}
 
 ul li {
     padding: 0px;
@@ -52,6 +68,9 @@ header {
     margin-bottom: 3%;
 }
 
+#nav {
+    border-bottom: 0px;
+}
 
 /*---------------Index page*/
 
@@ -90,6 +109,7 @@ form input {
 .follow-icons a {
     color: firebrick;
     padding-right: 10px;
+
 }
 
 .fa {
@@ -99,6 +119,8 @@ form input {
 .index-container p {
     text-align: justify;
 }
+
+
 
 /*---------------Media page*/
 
