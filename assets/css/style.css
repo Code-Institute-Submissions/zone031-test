@@ -22,6 +22,10 @@ h2, h3, h4 {
     color: firebrick;
 }
 
+.hyperlink:hover {
+    color: firebrick;
+}
+
 #sketchfab-media, #facebook-media, #youtube-media, #twitch-media, .embed-video {
     max-width: 100%;
     max-height: 100%;
@@ -79,6 +83,14 @@ header {
     border-bottom: 0px;
 }
 
+.nav-item a:hover,  {
+    color: black;
+}
+
+.nav-item-dropdown a:hover {
+    color: black;
+}
+
 /*---------------Index page*/
 
 .index-container .col-md-6 {
@@ -89,13 +101,10 @@ header {
     margin: 0px;
 }
 
-#arena-image {
-    width: 560px;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: auto;
+.imglist a {
+    width: 200px;
 }
+
 
 #facebook-video {
     max-width: 100%;
@@ -116,7 +125,6 @@ form input {
 .follow-icons a {
     color: firebrick;
     padding-right: 10px;
-
 }
 
 .fa {
@@ -153,17 +161,15 @@ h2, h3 {
     text-decoration: underline solid;
 }
 
-.mm {
+#masters {
     margin-bottom: 20px;
 }
-
 
 /*---------------Feydakin*/
 
 #feydakin-main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/feydakin.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("images/jeremy-bishop1unsplash.jpg");
     background-position: center;
-    background-repeat: repeat-y;
     background-size: cover;
 }
 
@@ -178,6 +184,25 @@ h2, h3 {
 
 #feydakin-main {
     font-family: 'Audiowide', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+#feydakin-logo {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 2%;
+    margin-top: 20px;
+}
+
+.fey-intro {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#fey-foot p span {
+    position: relative;
+    right: 5px;
 }
 
 /*---------------Cards*/
