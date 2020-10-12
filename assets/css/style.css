@@ -4,9 +4,6 @@ body {
     background-color: rgb(17, 16, 16);
     color: floralwhite;
     font-family: 'Jura', serif;
-    background-image: url("images/tbd");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 p {
@@ -83,8 +80,8 @@ header {
     border-bottom: 0px;
 }
 
-.nav-item a:hover,  {
-    color: black;
+.nav-item a:hover  {
+    color: black; 
 }
 
 .nav-item-dropdown a:hover {
