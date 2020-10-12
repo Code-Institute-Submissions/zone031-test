@@ -21,6 +21,12 @@ h2, h3 {
     color: firebrick;
 }
 
+#sketchfab-media, #facebook-media, #youtube-media, #twitch-media {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
 
 
 /*---------------Header*/
@@ -123,21 +129,6 @@ form input {
 
 
 /*---------------Media page*/
-
-#twitch-video-media {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#facebook-video-media, #facebook-video-media2 {
-    max-width: 100%;
-    max-height: 40%;
-}
-
-#youtube-video-media {
-    max-width: 100%;
-    max-height: 100%;
-}
 
 h2, h3 {
     text-align: center;
