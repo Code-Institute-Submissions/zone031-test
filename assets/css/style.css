@@ -30,6 +30,14 @@ h2, h3, h4 {
     margin: auto;
 }
 
+.container-fluid {
+    margin: 0px;
+}
+
+.double-tour {
+    margin-top: 20px;
+}
+
 
 /*---------------Header*/
 
@@ -92,10 +100,6 @@ header {
 
 .index-container .col-md-6 {
     margin-bottom: 10px;
-}
-
-.container-fluid {
-    margin: 0px;
 }
 
 .imglist a {
