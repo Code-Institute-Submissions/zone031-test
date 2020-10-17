@@ -45,7 +45,6 @@ h2, h3, h4 {
 
 .dropdown-menu {
     background-color: dimgray;
-    
 }
 
 ul li {
@@ -98,8 +97,6 @@ header {
     color: black;
 }
 
-
-
 /*---------------Index page*/
 
 .index-container .col-md-6 {
@@ -138,8 +135,6 @@ form input {
 .index-container p {
     text-align: justify;
 }
-
-
 
 /*---------------Media page*/
 

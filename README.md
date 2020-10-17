@@ -139,6 +139,8 @@ done simply by copying the provided emebedding codes from these pages.
 
 * Formatting: https://www.freeformatter.com/html-formatter.html has been used to format the code properly. 
 
+* Validation of code: https://validator.w3.org/nu/#textarea
+
 ## Testing
 
 * Lighthouse: all separate pages have been tested in lighthouse, both on Chrome and on Opera to make sure that they return satisfactory scores.
@@ -175,6 +177,43 @@ of devices and at the very least OK on the rest.
 * Nav-item-dropdown is always 1px smaller than the other nav-items. If I change the px value to match the other nav-items then the other nav-items
 change 1px up in size. I currently have no idea how to address this and suspect that it is some kind of bootstrap issue. Googling for a way
 to resolve the issue has been unfruitful.
+
+### HTML-validation (w3)
+
+#### Index: 
+
+* Sigup form type changed from name to text to accommodate value required.
+* Obsolete values removed from iframes. allowfullscreen="true" returned as bad value, is however necessary to allow integrated fullscreen. 
+
+#### About us:
+
+No errors returned.
+
+#### Feydakin:
+
+* Returns "stray start tag" error on jquery script tag. However that is part of the bundle from bootstrap and is identical to the code on
+other pages which doesn't return this error. 
+
+#### Media:
+
+* Obsolete values removed from iframes. allowfullscreen="true" returned as bad value, is however necessary to allow integrated fullscreen.
+
+#### Piraya: 
+
+* Same issue as Feydakin: "Returns "stray start tag" error on jquery script tag. However that is part of the bundle from bootstrap and is 
+identical to the code on other pages which doesn't return this error."
+
+#### The Game:
+
+No errors returned.
+
+#### Tournaments:
+
+* Obsolete values removed from iframes. allowfullscreen="true" returned as bad value, is however necessary to allow integrated fullscreen.
+
+### CSS Validation:
+
+No mistakes found. 
 
 ## Deployment
 
