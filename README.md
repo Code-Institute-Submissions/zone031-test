@@ -137,21 +137,58 @@ could have been used for videos as well but I felt like that would have been ove
 * Video embedding: Videos have been embedded from twitch, facebook and youtube usning iframes. Also a 3d model from sketchfab. This has been
 done simply by copying the provided emebedding codes from these pages.  
 
+* Formatting: https://www.freeformatter.com/html-formatter.html has been used to format the code properly. 
+
 ## Testing
 
+* Lighthouse: all separate pages have been tested in lighthouse, both on Chrome and on Opera to make sure that they return satisfactory scores.
+This version has returned 90+ on all categories (Performance, Accessibility, Best Practices and SEO.) Issues that have come up, e.g. misspelled 
+aria attributes and adding rel="noopener" to external links to improve site security have been amended. Lighthouse still brings up some smaller
+issues which I either do not know how to deal with (e.g. changing caching) or do not agree with (contrast between background and foreground
+colours being insufficient.)
 
+* Sign-up form: Name and email must both be filled out for form to complete. Email address without "@" is rejected. Form has been connected
+to https://formdump.codeinstitute.net/ and upon filling it in the site confirms that the information has been sent. 
+
+* Twitch-videos: Twitch videos do not show ("refused to connect") on the port opened via terminal window in gitpod. However, I have tested them
+on Opera, Firefox and Chrome to make sure they work there and they do. Additionally I had extensive problems with Twitch's autoplay being
+set to "true" by default and the attribute: autoplay="false" not working to correct this issue. After extensive searching for alternative 
+solutions I found that "&autoplay=false" added to the videolink in the iframes itself resolved the issue. 
+
+* Other videos have been tried on all devices available to me and I have found no issues with their functionality. 
+
+* Magic Scroll wheel: Seems to be working fine on all devices. Different aspect ratios can make it look less than ideal but on normal sized
+desktop screens and on most phones (checked in chrome dev-tools as well as on my own phone) it looks good. It does most of its styling work
+on its own though and I have only had to change background-color to it to make it blend in better. 
+
+* Hyperlinks: have all been tested to make sure they open in new tab. 
+
+* Images: some images vary in how they display at different aspect ratios and on different devices. Awkward variances have been amended and
+I have not been able to find anything remaining that really stands out (though ofc I cannot try all possible devices and aspect ratios). 
+At the moment I am confident that the coding in tandem with bootstrap use is flexible enough to make it look good on the most common types
+of devices and at the very least OK on the rest. 
+
+* Nav-bar: works across the pages and I haven't been able to find any issues clicking my way around. 
+
+### Known Bugs
+
+* Nav-item-dropdown is always 1px smaller than the other nav-items. If I change the px value to match the other nav-items then the other nav-items
+change 1px up in size. I currently have no idea how to address this and suspect that it is some kind of bootstrap issue. Googling for a way
+to resolve the issue has been unfruitful.
 
 ## Deployment
 
+The project has been deployed on Github pages at the following address: https://marcusaureliuslinden.github.io/zone031-test/
 
+All further developing will be updated there as I go along. 
 
 ## Credits
 
 * All content is original and has been written by me. 
 * Photos: All photos on index page have been taken by Paulina Lager Löfgren (our secretary)
 * Feydakin card images have been taken from our public facebook page and have been uploaded by someone from our team. 
-* Background photo for Feydakin: Jeremy Bishop via Unsplash https://unsplash.com/
+* Background photo for Feydakin: Jeremy Bishop via Unsplash https://unsplash.com/ also credited in footer
 * 3d model: The 3d model has been made by Smiley from our team Feydakin.
-
+* Video-content: provided by Zone031.
 
 The whole site was born out of my imagination with no concrete inspiration (but obviously a lot of unconscious inspiration.)
