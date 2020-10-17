@@ -172,12 +172,6 @@ of devices and at the very least OK on the rest.
 
 * Nav-bar: works across the pages and I haven't been able to find any issues clicking my way around. 
 
-### Known Bugs
-
-* Nav-item-dropdown is always 1px smaller than the other nav-items. If I change the px value to match the other nav-items then the other nav-items
-change 1px up in size. I currently have no idea how to address this and suspect that it is some kind of bootstrap issue. Googling for a way
-to resolve the issue has been unfruitful.
-
 ### HTML-validation (w3)
 
 #### Index: 

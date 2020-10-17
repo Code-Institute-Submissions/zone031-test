@@ -97,6 +97,10 @@ header {
     color: black;
 }
 
+.nav-item, .nav-item-dropdown {
+    height: 43px;
+}
+
 /*---------------Index page*/
 
 .index-container .col-md-6 {
